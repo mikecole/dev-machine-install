@@ -24,7 +24,7 @@ $xml | out-File $file
 ####
 # Install chocolatey
 ####
-iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+#iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
  
  
 ######
