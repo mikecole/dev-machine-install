@@ -4,7 +4,7 @@ Install-WindowsUpdate -AcceptEula
 
 cinst googlechrome
 cinst 7zip
-cinst notepad++
+cinst notepadplusplus
 cinst adobereader
 cinst git
 cinst autohotkey
@@ -37,7 +37,9 @@ cinst vlc
 
 cinst IIS-WebServerRole -source windowsfeatures
 
-# Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
-# Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+
+Disable-GameBarTips
 
 Install-WindowsUpdate -AcceptEula
