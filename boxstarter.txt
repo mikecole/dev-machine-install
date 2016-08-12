@@ -1,5 +1,6 @@
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
+Install-WindowsUpdate -AcceptEula
 
 cinst googlechrome
 cinst 7zip
@@ -32,6 +33,11 @@ cinst ditto
 cinst slack
 cinst jing
 cinst clickie
+cinst vlc
 
 cinst IIS-WebServerRole -source windowsfeatures
+
+# Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+# Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+
 Install-WindowsUpdate -AcceptEula
