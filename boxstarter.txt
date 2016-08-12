@@ -1,0 +1,37 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst googlechrome
+cinst 7zip
+cinst notepad++
+cinst adobereader
+cinst git
+cinst autohotkey
+cinst poshgit
+cinst ccleaner
+cinst skype
+cinst filezilla
+cinst dropbox
+cinst virtualbox
+cinst paint.net
+cinst teamviewer
+cinst itunes
+cinst tortoisegit
+cinst vagrant
+cinst resharper-platform
+cinst cmder
+cinst putty
+cinst github
+cinst linqpad
+cinst nugetpackageexplorer
+cinst webpi
+cinst 1password
+cinst mremoteng
+cinst visualstudio2015community
+cinst ditto
+cinst slack
+cinst jing
+cinst clickie
+
+cinst IIS-WebServerRole -source windowsfeatures
+Install-WindowsUpdate -AcceptEula
