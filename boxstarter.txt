@@ -36,6 +36,7 @@ cinst clickie
 cinst vlc
 cinst screentogif
 cinst checksum
+cinst microsoftazurestorageexplorer
 
 cinst IIS-WebServerRole -source windowsfeatures
 
