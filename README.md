@@ -1,12 +1,4 @@
 dev-machine-install
 ===================
 
-Chocolatey install script
-
-1) Install Chocolatey from https://chocolatey.org/
-
-2) Turn off UAC
-
-3) On command line: 
-
-    cinst packages.config
+http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/mikecole/dev-machine-install/master/boxstarter.txt
