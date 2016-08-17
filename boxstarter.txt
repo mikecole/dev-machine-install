@@ -35,6 +35,7 @@ cinst jing
 cinst clickie
 cinst vlc
 cinst screentogif
+cinst checksum
 
 cinst IIS-WebServerRole -source windowsfeatures
 
