@@ -37,6 +37,9 @@ cinst vlc
 cinst screentogif
 cinst checksum
 cinst microsoftazurestorageexplorer
+cinst hosts.editor
+cinst ssdt15
+cinst azuredatafactorytools15
 
 cinst IIS-WebServerRole -source windowsfeatures
 
