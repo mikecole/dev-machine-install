@@ -42,6 +42,7 @@ cinst ssdt15
 cinst azuredatafactorytools15
 cinst jbs
 cinst procmon
+cinst procexp
 
 cinst IIS-WebServerRole -source windowsfeatures
 
