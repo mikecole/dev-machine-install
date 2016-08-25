@@ -41,6 +41,7 @@ cinst hosts.editor
 cinst ssdt15
 cinst azuredatafactorytools15
 cinst jbs
+cinst procmon
 
 cinst IIS-WebServerRole -source windowsfeatures
 
