@@ -40,6 +40,7 @@ cinst microsoftazurestorageexplorer
 cinst hosts.editor
 cinst ssdt15
 cinst azuredatafactorytools15
+cinst jbs
 
 cinst IIS-WebServerRole -source windowsfeatures
 
