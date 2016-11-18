@@ -1,5 +1,4 @@
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Enable-RemoteDesktop
 Install-WindowsUpdate -AcceptEula
 
 cinst googlechrome
