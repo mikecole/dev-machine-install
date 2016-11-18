@@ -16,6 +16,10 @@ cinst 1password
 cinst jing
 cinst clickie
 cinst vlc
+cinst git
+cinst googleearth
+cinst jre8
+cinst tortoisegit
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
