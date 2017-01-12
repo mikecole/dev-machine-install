@@ -43,6 +43,7 @@ cinst azuredatafactorytools15
 cinst jbs
 cinst procmon
 cinst procexp
+cinst sql-server-management-studio
 
 cinst IIS-WebServerRole -source windowsfeatures
 
