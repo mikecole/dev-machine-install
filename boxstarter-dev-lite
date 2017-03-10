@@ -1,0 +1,43 @@
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+Install-WindowsUpdate -AcceptEula
+
+cinst googlechrome
+cinst 7zip
+cinst notepadplusplus
+cinst adobereader
+cinst git
+cinst poshgit
+cinst ccleaner
+cinst filezilla
+cinst paint.net
+cinst teamviewer
+cinst tortoisegit
+cinst resharper-platform
+cinst cmder
+cinst github
+cinst linqpad
+cinst nugetpackageexplorer
+cinst webpi
+cinst 1password
+cinst mremoteng
+cinst ditto
+cinst slack
+cinst jing
+cinst clickie
+cinst screentogif
+cinst checksum
+cinst microsoftazurestorageexplorer
+cinst hosts.editor
+cinst ssdt15
+cinst azuredatafactorytools15
+cinst sql-server-management-studio
+
+cinst IIS-WebServerRole -source windowsfeatures
+
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
+
+Disable-GameBarTips
+
+Install-WindowsUpdate -AcceptEula
