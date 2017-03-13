@@ -28,7 +28,6 @@ cinst nugetpackageexplorer
 cinst webpi
 cinst 1password
 cinst mremoteng
-cinst visualstudio2015community --execution-timeout=10000
 cinst ditto
 cinst slack
 cinst jing
