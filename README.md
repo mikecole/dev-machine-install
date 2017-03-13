@@ -1,3 +1,5 @@
+Note: Neither dev script includes Visual Studio, as that package tends to fail when using Boxstarter.
+
 Dev Machine Install
 ===================
 
